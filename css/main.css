@@ -440,6 +440,8 @@ a.active {
 
 .hero {
   padding: 200px 0;
+  max-width: 1600px;
+  margin: auto;
   background: var(--bg-hero-footer);
   background-repeat: no-repeat;
   background-position: center;
