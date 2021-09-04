@@ -1,0 +1,38 @@
+
+ .clients {
+    display: flex;
+    margin-top: 50px;
+ }
+ .clients__item {
+    flex-basis: calc((100% - 6 * var(--basic-card-gap)) / 6);
+    margin-right: 30px;
+
+    &:last-child {
+      margin-right: 0;
+  }
+ }
+ .clients__link {
+    padding: 12px 32px;
+    display: flex;
+    justify-content: center;
+    color: var(--social-icon-color);
+    border-radius: var(--border-radius);
+    border: 1px solid var(--social-icon-color);
+    transition: border-color var(--transition-duration) var(--timing-function);
+
+    &:hover,
+    &:focus {
+        border: 1px solid var(--special-color);
+    }
+ }
+ .clients__link:hover .clients__icon {
+    fill: var(--special-color);
+ }
+ .clients__link:focus .clients__icon {
+    fill: var(--special-color);
+ }
+ .clients__icon {
+    max-width: 100%;
+    fill: var(--social-icon-color);
+    transition: fill var(--transition-duration) var(--timing-function);
+ }
