@@ -1,0 +1,18 @@
+.footer {
+    background-color:var(--bg-hero-footer);
+    padding: 60px 0;
+
+    &__box {
+        display: flex;
+        align-items: baseline;
+    }
+    &__logo {
+        text-decoration: none;
+        color:var(--main-color);
+        font-family: "Raleway";
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.192;
+        letter-spacing: 0.03em;
+    }
+ }
